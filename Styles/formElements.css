@@ -1,0 +1,128 @@
+#backdrop1,
+#backdrop2 {
+    background-color: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: none;
+}
+
+#login-overlay,
+#signup-overlay {
+    position: fixed;
+    top: 9rem;
+    left: 30rem;
+    z-index: 1;
+    background-color: rgb(244, 239, 239);
+    width: 30rem;
+    height: 26rem;
+    text-align: center;
+    border-radius: 6px;
+    display: none;
+}
+
+#signup-overlay {
+    height: 32rem;
+}
+
+#signup-overlay {
+    top: 6.6rem;
+}
+
+form {
+    margin-bottom: 3rem;
+}
+
+#login-overlay h2,
+#signup-overlay h2 {
+    font-family: "Rubik", sans-serif;
+    color: rgb(31, 30, 30);
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 2rem;
+}
+
+#login-overlay label,
+#signup-overlay label {
+    display: block;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 0.5rem;
+}
+
+#login-overlay input,
+#signup-overlay input {
+    margin-bottom: 1rem;
+    width: 15rem;
+    height: 2rem;
+    border-radius: 4px;
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    border: 1px solid rgb(92, 92, 92);
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+}
+
+#login-overlay input:focus,
+#signup-overlay input:focus {
+    border: 2px solid rgb(87, 131, 253);
+}
+
+#login-overlay button,
+#signup-overlay button {
+    margin: 0 0.5rem;
+    padding: 0.5rem 1.5rem;
+    background-color: rgb(97, 4, 237);
+    color: rgb(241, 234, 234);
+    border-radius: 6px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    border: 1px solid rgb(97, 4, 237);
+    font: inherit;
+}
+
+.password {
+    margin-bottom: 1.5rem;
+}
+
+#login-overlay button:hover,
+#signup-overlay button:hover {
+    background-color: rgb(79, 10, 190);
+    border: 1px solid rgb(79, 10, 190);
+}
+
+#login-overlay .cancel-btn,
+#signup-overlay .cancel-btn {
+    background-color: transparent;
+    border-color: transparent;
+    color: rgb(97, 4, 237);
+    box-shadow: none;
+    font: inherit;
+}
+
+#login-overlay .cancel-btn:hover,
+#signup-overlay .cancel-btn:hover {
+    background-color: rgb(212, 190, 244);
+    border-color: rgb(212, 190, 244);
+}
+
+#login-overlay p,
+#signup-overlay p {
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+}
+
+.log-sign {
+    text-decoration: none;
+    color: rgb(97, 4, 237);
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+}
+
+.log-sign:hover {
+    background-color: rgb(212, 190, 244);
+}

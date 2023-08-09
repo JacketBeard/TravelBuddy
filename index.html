@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!--Meta data-->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale = 1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie-edge">
+
+        <!--Google Fonts Added-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,600;0,900;1,400&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
+        <!--External CSS Files-->
+        <link href="/Styles/shared.css" rel="stylesheet">
+        <link href="/Styles/styles.css" rel="stylesheet">
+        <link href="Styles/formElements.css" rel="stylesheet">
+
+        <!--External Script Files-->
+        <script src="Javascript/overlay.js" defer></script>
+        <script src="Javascript/app.js" defer></script>
+
+        <!--Favicon-->
+        <link href="/Images/Icons/Favicon.png" rel="icon" type="image/x-icon">
+
+        <!--Title-->
+        <title>TravelBuddy</title>
+    </head>
+    <body>
+        <div id="backdrop1"></div>
+        <div id="backdrop2"></div>
+        <header>
+            <a href="index.html" id="main-header">TravelBuddy</a>
+            <navbar id="side-drawer">
+                <ul id="nav-links">
+                    <li id="drawer">
+                        <a href="#location-list" class="destinations">Explore</a>
+                        <aside id="location-list">
+                            <ul id="countries">
+                                <li>
+                                    <a href="" class="destinations">New South Wales</a>
+                                <li>
+                                    <a href="" class="destinations">Victoria</a>
+                                </li>
+                                <li>
+                                    <a href="" class="destinations">Queensland</a>
+                                </li>
+                                <li>
+                                    <a href="" class="destinations">Western Australia</a>
+                                </li>
+                                <li>
+                                    <a href="" class="destinations">South Australia</a>
+                                </li>
+                                <li>
+                                    <a href="" class="destinations">Tasmania</a>
+                                </li>
+                                <li>
+                                    <a href="" class="destinations">Auckland</a>
+                                </li>
+                                <li>
+                                    <a href="" class="destinations">New Plymouth</a>
+                                </li>
+                                <li>
+                                    <a href="" class="destinations">Hawke's Bay</a>
+                                </li>
+                                <li>
+                                    <a href="" class="destinations">Wellington</a>
+                                </li>
+                                <li>
+                                    <a href="" class="destinations">Nelson</a>
+                                </li>
+                                <li>
+                                    <a href="" class="destinations">Marlborough</a>
+                                </li>
+                                <li>
+                                    <a href="" class="destinations">Westland</a>
+                                </li>
+                                <li>
+                                    <a href="" class="destinations">Canterbury</a>
+                                </li>
+                                <li>
+                                    <a href="" class="destinations">Otago</a>
+                                </li>
+                                <li>
+                                    <a href="" class="destinations">Southland</a>
+                                </li>
+                            </ul>
+                        </aside>
+                    </li>
+                    <li>
+                        <a href="" class="destinations">Tickets</a>
+                    </li>
+                    <li>
+                        <a href="" class="destinations">Requirements</a>
+                    </li>
+                    <li id="log-in">
+                        <a href="" class="log-sign-btn" id="login">Log in</a>
+                    </li>
+                    <li id="sign-up">
+                        <a href="" class="log-sign-btn" id="signup">Sign up</a>
+                    </li>
+                </ul>
+            </navbar>
+        </header>
+        <aside id="login-overlay">
+            <h2>Log in</h2>
+            <form>
+                <div>
+                    <label for="username">Username</label>
+                    <input type="text" name="user-name" id="username" placeholder="Enter your name"/>
+                </div>
+                <div class="password">
+                    <label for="username">Password</label>
+                    <input type="password" name="user-password" id="userpassword" placeholder="Enter your password" minlength="8"/>
+                </div>
+                <div>
+                    <button type="button" class="cancel-btn" id="canceller-login">Cancel</button>
+                    <button type="submit">Confirm</button>
+                </div>
+            </form>
+            <p>Have you not registered? <a href="#signup-overlay" class="log-sign" id="register-now">Register from here.</a></p>
+        </aside>
+        <aside id="signup-overlay">
+            <h2>Sign up</h2>
+            <form>
+                <div>
+                    <label for="username">Username</label>
+                    <input type="text" name="user-name2" id="username2" placeholder="Enter your name"/>
+                </div>
+                <div>
+                    <label for="username">Email</label>
+                    <input type="email" name="user-mail" id="usermail" placeholder="Enter your email" />
+                </div>
+                <div class="password">
+                    <label for="username">Password</label>
+                    <input type="password" name="user-password2" id="userpassword2" placeholder="Enter your password" minlength="8"/>
+                </div>
+                <div>
+                    <button type="button" class="cancel-btn" id="canceller-signup">Cancel</button>
+                    <button type="submit">Confirm</button>
+                </div>
+            </form>
+            <p>Have you registered before? <a href="" class="log-sign" id="login-now">Log in from here.</a></p>
+        </aside>
+        <main>
+            <section id="explore">
+                <div id="explore-now-link">
+                    <h1>Welcome!</h1>
+                    <a href="">Explore now!</a>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div id="developer">
+                <h3>Developer Team</h3>
+                <p>Joshua</p>
+            </div>
+            <div id="contact">
+                <h3>Contact</h3>
+                <ul id="contact-me">
+                    <li>
+                        <a href="mailto:">akbarhuseynli16@gmail.com</a>
+                    </li>
+                    <li>
+                        <a href="https://discord.com/channels/@me">Discord</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="about-us">
+                <h3>Help</h3>
+            </div>
+            <!--<p>All the content are preserved &copy;</p>-->
+        </footer>
+    </body>
+</html>
